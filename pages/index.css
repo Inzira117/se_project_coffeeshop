@@ -133,6 +133,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.recipes__iframe{
+  border: none;
+}
 .reservation{}
 .menu{}
 .about{}

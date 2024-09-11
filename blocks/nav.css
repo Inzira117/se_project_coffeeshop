@@ -1,4 +1,4 @@
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
   font-family: Inter, Arial, sans-serif;
@@ -7,14 +7,14 @@
   line-height: 20px;
 }
 
-.nav__logo{
+.nav__logo {
   position: relative;
   left: -50px;
   width: 105px;
   height: 39px;
 }
 
-.nav__links{
+.nav__links {
   display: flex;
   list-style-type: none;
   gap: 20px;

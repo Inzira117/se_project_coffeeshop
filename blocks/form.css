@@ -1,14 +1,14 @@
-.form{
+.form {
   max-width: 385px;
 }
 
-.form__fieldset{
+.form__fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.form__input{
+.form__input {
   display: block;
   width: 100%;
   padding: 15px 20px;
@@ -18,7 +18,7 @@
   border-radius: 4px;
 }
 
-.form__button{
+.form__button {
   width: 100%;
   padding: 20px;
   margin-bottom: 32px;
@@ -33,20 +33,19 @@
   background-color: #1878dc;
 }
 
-.form__button:hover{
+.form__button:hover {
   transition: background-color 1s ease;
   background-color: #3f96f3;
 }
 
-.form__checkbox{
-border-radius: 2px;
-width: 20px;
-height: 20px;
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
-.form__label_type_checkbox{
+.form__label_type_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
-
 }

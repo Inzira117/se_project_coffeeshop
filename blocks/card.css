@@ -1,14 +1,14 @@
-.card{
+.card {
   width: 540px;
 }
 
-.card__list{
+.card__list {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-.card__title{
+.card__title {
   margin: 0 0 32px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
@@ -16,7 +16,7 @@
   line-height: 30px;
 }
 
-.card__list-item{
+.card__list-item {
   margin-bottom: 16px;
   display: flex;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -25,7 +25,7 @@
   line-height: 20px;
 }
 
-.card__list-devider{
+.card__list-devider {
   border-bottom: 1px solid black;
   flex-grow: 1;
 }

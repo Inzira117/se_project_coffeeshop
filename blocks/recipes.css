@@ -10,9 +10,10 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .recipes__title {
@@ -39,8 +40,11 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .recipes__iframe {
   border: none;
+  width: 480px;
+  height: 273px;
 }

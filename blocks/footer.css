@@ -5,7 +5,7 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px 180px 80px;
+  padding: 60px 80px 108px 80px;
   color: #fff;
 }
 
@@ -22,11 +22,12 @@
 }
 
 .footer__social-heading {
-  margin: 0 0 20px;
+  margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  gap: 20px;
 }
 
 .footer__list {
@@ -37,10 +38,6 @@
 
 .footer__list-item {
   margin: 0 0 16px;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -57,6 +54,11 @@
 
 .footer__social-link {
   transition: opacity 0.5s;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__social-link:hover {
